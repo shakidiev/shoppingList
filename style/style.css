@@ -1,0 +1,74 @@
+.done {
+  color: silver;
+  text-decoration: line-through;
+}
+
+.shopping-list {
+  color: green;
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.5);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.shopping-list:hover {
+  box-shadow: 0 15px 26px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  font-size: 20px;
+  padding: 7px;
+  background-color: white;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.5s;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+input:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+li {
+  color: green;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+li span {
+  float: left;
+  height: 50px;
+  background-color: green;
+  color: white;
+  width: 0;
+
+  opacity: 0;
+  transition: 0.3s;
+}
+
+li:hover span {
+  width: 50px;
+  opacity: 1;
+}
+
+h2 span {
+  float: right;
+}
